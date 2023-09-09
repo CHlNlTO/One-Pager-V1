@@ -1,0 +1,82 @@
+/* This is the general settings*/
+*{
+	background-color: white;
+	padding: 0em;
+	margin: 0em;
+	outline: 0em;
+	height: 0em;
+}
+
+
+/* This functions 
+as the settings for 
+the background image*/
+body, html {
+
+	height: 120%; /* This sets the height of the background image*/
+	background-size: cover;	/*This covers out the whole website*/
+	background-image: url("Images/Pattern6.jpg") /* This imports the image to be used */
+}
+
+
+/* This functions 
+as the settings for 
+the Profile Image*/
+.Pf {
+
+	border-radius: 50%; /* This sets the border radius of the image*/
+	height: 30.47091412742382vh; /* This sets the size of the image*/
+	position: absolute; /* This sets the position of the image to be absolute*/
+	left: 137.1191135734072vh; /* This sets the image's distance to the left side*/
+	top: 6.925207756232687vh; /* This sets the image's distance to the top side*/
+	background-image: url("Images/Profile.jpg") /* This imports the image to be used */
+}
+
+
+/* This functions 
+as the settings for 
+the h2 code in the html*/
+.Question {
+	font-family: Letter Gothic Std; /* This sets the font of the text */
+	position: relative; /* This sets the position of the text to be absolute*/
+	text-align: right; /* This aligns the text to the right */
+	right: 130.97506925207756vh; /* This sets the text's distance to the right side */
+	top: 75.02770083102493vh; /* This sets the text's distance to the top side */
+	font-size: 10vh; /* This sets the size of the font */
+}
+
+
+/* This functions 
+as the settings for 
+the "Txt" class code in the html*/
+.Txt {
+	font-family: Letter Gothic Std; /* This sets the font of the text */
+	position: absolute; /* This sets the position of the text to be absolute*/
+	text-align: right; /* This aligns the text to the right */
+	right: 8.772853185595569vh; /* This sets the text's distance to the right side */
+	top: 67.94182825484764vh; /* This sets the text's distance to the top side */
+	font-size: 3.8551246537396125vh; /* This sets the size of the font */
+}
+
+
+/* This functions 
+as the settings for 
+the "Name" class code in the html*/
+.Name {
+	font-family: Letter Gothic Std; /* This sets the font of the text */
+	position: absolute; /* This sets the position of the text to be absolute*/
+	left: 121.772853185595569vh; /* This aligns the text to the right */
+	top: 40.94182825484764vh; /* This sets the text's distance to the top side */
+	font-size: 5.1551246537396125vh;
+}
+
+/* This functions 
+as the settings for 
+the "Section" class code in the html*/
+.Section {
+	font-family: Letter Gothic Std; /* This sets the font of the text */
+	position: absolute; /* This sets the position of the text to be absolute*/
+	left: 139.972853185595569vh; /* This aligns the text to the right */
+	top: 46.94182825484764vh; /* This sets the text's distance to the top side */
+	font-size: 4.1551246537396125vh; /* This sets the size of the font */
+}
